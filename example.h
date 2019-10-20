@@ -10,11 +10,12 @@ when(STARTED){
 	
 	LeftMotor.stop();
 	RightMotor.stop();
-	wait(50, seconds);
+	
+  wait(30, seconds);
 	
 	LeftMotor.spin(reverse);
 	RightMotor.spin(forward);
-	wait(3, seconds);
+	wait(45, seconds);
 	
 	LeftMotor.stop();
 	RightMotor.stop();
