@@ -1,3 +1,3 @@
-# cs504
+# README
 
 //Test ReadMe file
