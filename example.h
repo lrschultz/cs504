@@ -1,4 +1,6 @@
 when(STARTED){
+	// made new changes to this file
+	
 	wait(1, seconds);
 	
 	LeftMotor.setVelocity(50, percent);
@@ -6,12 +8,11 @@ when(STARTED){
 	
 	LeftMotor.spin(forward);
 	RightMotor.spin(reverse);
-	wait(30, seconds);
+	wait(2, seconds);
 	
 	LeftMotor.stop();
 	RightMotor.stop();
-	
-  wait(30, seconds);
+	wait(30, seconds);
 	
 	LeftMotor.spin(reverse);
 	RightMotor.spin(forward);
